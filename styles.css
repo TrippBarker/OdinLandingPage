@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+* {
+    background-color: #1F2937;
+    font-family: monospace;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header {
+    height: 300px;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.footer{
+    text-align: center;
+    height: 75px;
+    background-color: purple;
+}
