@@ -1,4 +1,5 @@
 body {
+    height: 100vh;
     margin: 0;
     padding: 0;
     display: flex;
@@ -6,8 +7,8 @@ body {
     justify-content: space-between;
 }
 * {
-    background-color: #1F2937;
     font-family: monospace;
+    margin: 0;
 }
 
 li {
@@ -18,16 +19,24 @@ a {
     text-decoration: none;
 }
 
-h2 {
+h2, button.sign-up {
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: 100;
 }
 
+button.sign-up {
+    background-color: #3882F6;
+    border: 0;
+    padding: 4px 22px;
+    border-radius: 8px;
+}
+
+
+/* ------- HEADER ------- */
 .header {
-    height: 300px;
-    background-color: green;
-    margin: 0;
-    padding: 0;
+    background-color: #1F2937;
+    padding: 25px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,8 +47,84 @@ h2 {
     font-size: 24px;
 }
 
+.links {
+    display: flex;
+    padding: 0;
+}
+
+.link {
+    padding-left: 16px;
+}
+
+/* ------- MAIN ------- */
+.mainCont {
+    background-color: #1F2937;
+    display: flex;
+    padding: 25px 100px;
+}
+
+.main.text {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.second.text {
+    margin-bottom: 8px;
+}
+
+.main-pic {
+    height: 200px;
+    width: 400px;
+    flex-shrink: 0;
+    border: 1px solid red;
+    margin-left: 16px;
+}
+
+/* ------- CARDS ------- */
+
+.card-section .title {
+    font-size: 36px;
+    margin: 16px;
+}
+
+.card-section .text {
+    color: #1F2937;
+}
+
+.card-section {
+    background-color: #F9FAF8;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    margin: 16px;
+}
+
+.card-pic {
+    height: 150px;
+    width: 150px;
+    background-color: #1F2937;
+    flex-shrink: 0;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+/* ------- FOOTER ------- */
 .footer{
     text-align: center;
-    height: 75px;
-    background-color: purple;
+    background-color: #1F2937;
+    padding: 14px;
+}
+
+.copyright {
 }
