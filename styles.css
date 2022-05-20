@@ -72,11 +72,16 @@ button.sign-up {
     margin-bottom: 8px;
 }
 
+.mainCont a {
+    color: #3882F6;
+    font-weight: bold;
+}
+
 .main-pic {
     height: 200px;
     width: 400px;
     flex-shrink: 0;
-    border: 1px solid red;
+    border: 1px solid #3882F6;
     margin-left: 16px;
 }
 
@@ -109,12 +114,17 @@ button.sign-up {
     margin: 16px;
 }
 
+.card a {
+    color: #3882F6;
+    font-weight: bold;
+}
+
 .card-pic {
     height: 150px;
     width: 150px;
     background-color: #1F2937;
     flex-shrink: 0;
-    border: 1px solid red;
+    border: 1px solid #3882F6;
     border-radius: 8px;
     margin-bottom: 8px;
 }
