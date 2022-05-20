@@ -27,8 +27,8 @@ h2, button.sign-up {
 
 button.sign-up {
     background-color: #3882F6;
-    border: 0;
-    padding: 4px 22px;
+    border: 1px solid #3882F6;
+    padding: 2px 26px;
     border-radius: 8px;
 }
 
@@ -82,18 +82,18 @@ button.sign-up {
 
 /* ------- CARDS ------- */
 
+.card-section {
+    background-color: #F9FAF8;
+    text-align: center;
+}
+
 .card-section .title {
     font-size: 36px;
-    margin: 16px;
+    padding: 16px;
 }
 
 .card-section .text {
     color: #1F2937;
-}
-
-.card-section {
-    background-color: #F9FAF8;
-    text-align: center;
 }
 
 .cards {
@@ -119,12 +119,66 @@ button.sign-up {
     margin-bottom: 8px;
 }
 
+/* ------- QUOTE ------- */
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.quotes {
+    width: 700px;
+}
+
+.quote {
+    font-size: 24px;
+    color: #1F293799;
+    font-style: italic;
+}
+
+.quotee {
+    color: #1F2937;
+    font-size: 30px;
+    text-align: right;
+}
+
+/* ------- CTA ------- */
+
+.cta-section {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.cta {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    padding: 32px 64px;
+}
+
+.cta-text {
+    color: #E5E7EB;
+    padding-right: 16px;
+}
+
+.cta-text h2 {
+    font-weight: bold;
+}
+
+.cta-text h3 {
+    font-weight: 100;
+}
+
+ .cta .sign-up{
+    border: 1px solid #F9FAF8;
+}
 /* ------- FOOTER ------- */
 .footer{
     text-align: center;
     background-color: #1F2937;
     padding: 14px;
-}
-
-.copyright {
 }
